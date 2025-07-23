@@ -1,0 +1,95 @@
+{
+  "sbom": {
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "com.github.digitalfabrik/sbom-archiver",
+    "documentNamespace": "https://spdx.org/spdxdocs/protobom/ce59ff8e-be3a-456f-a651-5d60a85e2ee6",
+    "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+    "creationInfo": {
+      "creators": [
+        "Tool: protobom-v0.0.0-20250723104347-8c81b2a7530c+dirty",
+        "Tool: GitHub.com-Dependency-Graph"
+      ],
+      "created": "2025-07-23T14:50:17Z"
+    },
+    "packages": [
+      {
+        "name": "flask",
+        "SPDXID": "SPDXRef-pypi-flask-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/flask"
+          }
+        ]
+      },
+      {
+        "name": "requests",
+        "SPDXID": "SPDXRef-pypi-requests-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/requests"
+          }
+        ]
+      },
+      {
+        "name": "gitpython",
+        "SPDXID": "SPDXRef-pypi-gitpython-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/gitpython"
+          }
+        ]
+      },
+      {
+        "name": "com.github.digitalfabrik/sbom-archiver",
+        "SPDXID": "SPDXRef-github-digitalfabrik-sbom-archiver-main-8d7b6c",
+        "versionInfo": "main",
+        "downloadLocation": "git+https://github.com/digitalfabrik/sbom-archiver",
+        "filesAnalyzed": false,
+        "licenseDeclared": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:github/digitalfabrik/sbom-archiver@main"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-sbom-archiver-main-8d7b6c",
+        "relatedSpdxElement": "SPDXRef-pypi-flask-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-sbom-archiver-main-8d7b6c",
+        "relatedSpdxElement": "SPDXRef-pypi-requests-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-sbom-archiver-main-8d7b6c",
+        "relatedSpdxElement": "SPDXRef-pypi-gitpython-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-DOCUMENT",
+        "relatedSpdxElement": "SPDXRef-github-digitalfabrik-sbom-archiver-main-8d7b6c",
+        "relationshipType": "DESCRIBES"
+      }
+    ]
+  }
+}
