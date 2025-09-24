@@ -1,0 +1,40 @@
+{
+  "sbom": {
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "com.github.digitalfabrik/lunes-cms",
+    "documentNamespace": "https://spdx.org/spdxdocs/protobom/905c1afc-71a0-4aad-b30b-8a607af973be",
+    "creationInfo": {
+      "creators": [
+        "Tool: protobom-v0.0.0-20250919084336-6301d6fbb0b9+dirty",
+        "Tool: GitHub.com-Dependency-Graph"
+      ],
+      "created": "2025-09-24T13:56:12Z"
+    },
+    "packages": [
+      {
+        "name": "com.github.digitalfabrik/lunes-cms",
+        "SPDXID": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "versionInfo": "develop",
+        "downloadLocation": "git+https://github.com/digitalfabrik/lunes-cms",
+        "filesAnalyzed": false,
+        "licenseDeclared": "Apache-2.0",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:github/digitalfabrik/lunes-cms@develop"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "spdxElementId": "SPDXRef-DOCUMENT",
+        "relatedSpdxElement": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "relationshipType": "DESCRIBES"
+      }
+    ]
+  }
+}
