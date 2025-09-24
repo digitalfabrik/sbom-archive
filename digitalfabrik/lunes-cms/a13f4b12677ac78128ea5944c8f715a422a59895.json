@@ -4,13 +4,13 @@
     "dataLicense": "CC0-1.0",
     "SPDXID": "SPDXRef-DOCUMENT",
     "name": "com.github.digitalfabrik/lunes-cms",
-    "documentNamespace": "https://spdx.org/spdxdocs/protobom/e611a999-fddc-473a-bb90-666e6f0e33a2",
+    "documentNamespace": "https://spdx.org/spdxdocs/protobom/0c1a506e-6865-4849-b37c-ab5173bde72c",
     "creationInfo": {
       "creators": [
         "Tool: protobom-v0.0.0-20250919084336-6301d6fbb0b9+dirty",
         "Tool: GitHub.com-Dependency-Graph"
       ],
-      "created": "2025-09-24T15:03:07Z"
+      "created": "2025-09-24T15:09:56Z"
     },
     "packages": [
       {
