@@ -1,0 +1,239 @@
+{
+  "sbom": {
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "com.github.digitalfabrik/integreat-chat",
+    "documentNamespace": "https://spdx.org/spdxdocs/protobom/29324f0a-c8bf-4261-bd36-265ae9e89534",
+    "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+    "creationInfo": {
+      "creators": [
+        "Tool: protobom-v0.0.0-20251118221922-d00424c6bd33+dirty",
+        "Tool: GitHub.com-Dependency-Graph"
+      ],
+      "created": "2025-11-19T14:24:15Z"
+    },
+    "packages": [
+      {
+        "name": "django-celery",
+        "SPDXID": "SPDXRef-pypi-django-celery-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/django-celery"
+          }
+        ]
+      },
+      {
+        "name": "langchain-text-splitters",
+        "SPDXID": "SPDXRef-pypi-langchain-text-splitters-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/langchain-text-splitters"
+          }
+        ]
+      },
+      {
+        "name": "numpy",
+        "SPDXID": "SPDXRef-pypi-numpy-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/numpy"
+          }
+        ]
+      },
+      {
+        "name": "aiohttp",
+        "SPDXID": "SPDXRef-pypi-aiohttp-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/aiohttp"
+          }
+        ]
+      },
+      {
+        "name": "redis",
+        "SPDXID": "SPDXRef-pypi-redis-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/redis"
+          }
+        ]
+      },
+      {
+        "name": "beautifulsoup4",
+        "SPDXID": "SPDXRef-pypi-beautifulsoup4-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/beautifulsoup4"
+          }
+        ]
+      },
+      {
+        "name": "celery",
+        "SPDXID": "SPDXRef-pypi-celery-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/celery"
+          }
+        ]
+      },
+      {
+        "name": "torch",
+        "SPDXID": "SPDXRef-pypi-torch-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/torch"
+          }
+        ]
+      },
+      {
+        "name": "django",
+        "SPDXID": "SPDXRef-pypi-django-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/django"
+          }
+        ]
+      },
+      {
+        "name": "lxml",
+        "SPDXID": "SPDXRef-pypi-lxml-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/lxml"
+          }
+        ]
+      },
+      {
+        "name": "accelerate",
+        "SPDXID": "SPDXRef-pypi-accelerate-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/accelerate"
+          }
+        ]
+      },
+      {
+        "name": "com.github.digitalfabrik/integreat-chat",
+        "SPDXID": "SPDXRef-github-digitalfabrik-integreat-chat-main-a1f9ea",
+        "versionInfo": "main",
+        "downloadLocation": "git+https://github.com/digitalfabrik/integreat-chat",
+        "filesAnalyzed": false,
+        "licenseDeclared": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:github/digitalfabrik/integreat-chat@main"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-integreat-chat-main-a1f9ea",
+        "relatedSpdxElement": "SPDXRef-pypi-django-celery-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-integreat-chat-main-a1f9ea",
+        "relatedSpdxElement": "SPDXRef-pypi-beautifulsoup4-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-integreat-chat-main-a1f9ea",
+        "relatedSpdxElement": "SPDXRef-pypi-celery-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-integreat-chat-main-a1f9ea",
+        "relatedSpdxElement": "SPDXRef-pypi-django-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-integreat-chat-main-a1f9ea",
+        "relatedSpdxElement": "SPDXRef-pypi-langchain-text-splitters-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-integreat-chat-main-a1f9ea",
+        "relatedSpdxElement": "SPDXRef-pypi-numpy-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-integreat-chat-main-a1f9ea",
+        "relatedSpdxElement": "SPDXRef-pypi-aiohttp-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-integreat-chat-main-a1f9ea",
+        "relatedSpdxElement": "SPDXRef-pypi-redis-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-integreat-chat-main-a1f9ea",
+        "relatedSpdxElement": "SPDXRef-pypi-torch-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-integreat-chat-main-a1f9ea",
+        "relatedSpdxElement": "SPDXRef-pypi-lxml-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-integreat-chat-main-a1f9ea",
+        "relatedSpdxElement": "SPDXRef-pypi-accelerate-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-DOCUMENT",
+        "relatedSpdxElement": "SPDXRef-github-digitalfabrik-integreat-chat-main-a1f9ea",
+        "relationshipType": "DESCRIBES"
+      }
+    ]
+  }
+}
