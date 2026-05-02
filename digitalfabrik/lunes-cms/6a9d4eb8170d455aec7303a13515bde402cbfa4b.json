@@ -1,0 +1,257 @@
+{
+  "sbom": {
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "com.github.digitalfabrik/lunes-cms",
+    "documentNamespace": "https://spdx.org/spdxdocs/protobom/5136e587-1c91-400d-9cf2-69d78223abca",
+    "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+    "creationInfo": {
+      "creators": [
+        "Tool: protobom-v0.0.0-20260501142040-d2b2a82f98d2+dirty",
+        "Tool: GitHub.com-Dependency-Graph"
+      ],
+      "created": "2026-05-02T13:45:23Z"
+    },
+    "packages": [
+      {
+        "name": "djangorestframework",
+        "SPDXID": "SPDXRef-pypi-djangorestframework-393f6f",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/djangorestframework"
+          }
+        ]
+      },
+      {
+        "name": "pydub",
+        "SPDXID": "SPDXRef-pypi-pydub-593137",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/pydub"
+          }
+        ]
+      },
+      {
+        "name": "django-import-export",
+        "SPDXID": "SPDXRef-pypi-django-import-export-d2ca18",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/django-import-export"
+          }
+        ]
+      },
+      {
+        "name": "pillow",
+        "SPDXID": "SPDXRef-pypi-pillow-a7f8ba",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/pillow"
+          }
+        ]
+      },
+      {
+        "name": "django",
+        "SPDXID": "SPDXRef-pypi-django-051ea9",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/django"
+          }
+        ]
+      },
+      {
+        "name": "ipython",
+        "SPDXID": "SPDXRef-pypi-ipython-a69030",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/ipython"
+          }
+        ]
+      },
+      {
+        "name": "psycopg2",
+        "SPDXID": "SPDXRef-pypi-psycopg2-229e3d",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/psycopg2"
+          }
+        ]
+      },
+      {
+        "name": "drf-spectacular",
+        "SPDXID": "SPDXRef-pypi-drf-spectacular-1dde5a",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/drf-spectacular"
+          }
+        ]
+      },
+      {
+        "name": "django-jazzmin",
+        "SPDXID": "SPDXRef-pypi-django-jazzmin-9e2f45",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/django-jazzmin"
+          }
+        ]
+      },
+      {
+        "name": "django-mptt",
+        "SPDXID": "SPDXRef-pypi-django-mptt-65866e",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/django-mptt"
+          }
+        ]
+      },
+      {
+        "name": "django-qr-code",
+        "SPDXID": "SPDXRef-pypi-django-qr-code-477466",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/django-qr-code"
+          }
+        ]
+      },
+      {
+        "name": "openai",
+        "SPDXID": "SPDXRef-pypi-openai-e445c5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/openai"
+          }
+        ]
+      },
+      {
+        "name": "com.github.digitalfabrik/lunes-cms",
+        "SPDXID": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "versionInfo": "develop",
+        "downloadLocation": "git+https://github.com/digitalfabrik/lunes-cms",
+        "filesAnalyzed": false,
+        "licenseDeclared": "Apache-2.0",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:github/digitalfabrik/lunes-cms@develop"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "relatedSpdxElement": "SPDXRef-pypi-pillow-a7f8ba",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "relatedSpdxElement": "SPDXRef-pypi-django-051ea9",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "relatedSpdxElement": "SPDXRef-pypi-ipython-a69030",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "relatedSpdxElement": "SPDXRef-pypi-django-jazzmin-9e2f45",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "relatedSpdxElement": "SPDXRef-pypi-django-mptt-65866e",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "relatedSpdxElement": "SPDXRef-pypi-pydub-593137",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "relatedSpdxElement": "SPDXRef-pypi-django-import-export-d2ca18",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "relatedSpdxElement": "SPDXRef-pypi-psycopg2-229e3d",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "relatedSpdxElement": "SPDXRef-pypi-drf-spectacular-1dde5a",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "relatedSpdxElement": "SPDXRef-pypi-django-qr-code-477466",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "relatedSpdxElement": "SPDXRef-pypi-openai-e445c5",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "relatedSpdxElement": "SPDXRef-pypi-djangorestframework-393f6f",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-DOCUMENT",
+        "relatedSpdxElement": "SPDXRef-github-digitalfabrik-lunes-cms-develop-2a6cef",
+        "relationshipType": "DESCRIBES"
+      }
+    ]
+  }
+}
